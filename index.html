@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>Assignment js problems</title>
+    <!--  -->
+    <link rel="icon" href="assests/images/js.webp">
+    <!-- all CSS hear -->
+    <!--Bootstrap  -->
+    <link rel="stylesheet" href="Css-files/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="Css-files/all.min.css">
+    <!--media quary  -->
+    <link rel="stylesheet" href="Css-files/media.css">
+    <!--main style sheet  -->
+    <link rel="stylesheet" href="Css-files/main.css">
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="web designer,developer web">
+</head>
+
+<body class="bg-secondary">
+    <header></header>
+    <main class="py-5">
+        <section class="container ">
+            <div id="demo" class=" text-center ">
+                <h1 class="text-warning"> ASSIGNMENT 2 for JS</h1>
+
+                <!-- Question 1 -->
+                <h2 class="text-info">1-Write a function that uses a `for` loop to print numbers from 1 to 10. If the number is divisible by 3, skip printing the number.</h2>
+              <div class="d-flex w-75 flex-wrap flex-md-nowrap align-items-center m-auto "> 
+                <input type="number" id="INPUT1" class="form-control me-2  " placeholder="from num1">
+                <input type="number" id="INPUT2" class="form-control mt-md-0 mt-2 me-1" placeholder="to num2">
+                <button type="button" id="ACTION1" class="btn btn-danger ">generate</button>
+                <label class="p-2 m-2 bg-warning rounded-2 " id="RESULT1">-</label>
+              </div> 
+              
+
+             <!-- Question 2 -->
+              <h2 class="text-info ">2-Write a function that uses a `while` loop to calculate the sum of numbers from 1 to 100.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap  w-75  align-items-center m-auto"> 
+                <input type="number" id="INPUT1-Q2" class="form-control me-2" placeholder="Enter Number you need to reach it">
+                <button type="button" id="ACTION2" class="btn btn-danger ">Sum</button>
+                <label class="p-2 m-2 bg-warning rounded-2" id="RESULT2">-</label>
+              </div> 
+
+              <!-- Question 3 -->
+              <h2 class="text-info ">3-Implement a function using `forEach` to iterate over an array and print each element.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap  w-75  align-items-center m-auto"> 
+                <input type="number" id="INPUT1-Q3" class="form-control me-2 " placeholder="fill array by element" >
+                 <input type="text" id="INPUT2-Q3" class="form-control mt-md-0 mt-2 me-1" placeholder="your array" readonly>
+                 <button type="button" id="ACTION3_Fill" class="btn btn-danger me-1">Filling</button>
+                <button type="button" id="ACTION3" class="btn btn-danger ">Display</button>
+                <label class="p-2 m-2 bg-warning rounded-2" id="RESULT3">-</label>
+              </div>
+
+               <!-- Question 4 -->
+              <h2 class="text-info ">4-Explain the difference between `forEach` and `for...of` loops in JavaScript.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap  w-75  align-items-center m-auto"> 
+               <p>
+                forEach:
+                        Use forEach when you need to perform actions on each element of an array
+                        and don't need to stop or pause the loop.
+               </p>
+               <p>for...of:
+                        Use for...of when you need more flexibility 
+                        (like breaking, continuing, or handling non-array iterables).
+                </p>
+              </div> 
+
+              <!-- Question 5-->
+              <h2 class="text-info ">5-Write a function that destructures an object to extract values and returns a formatted string.. insert as {"name": "John", "age": 30}</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-center m-auto"> 
+                <input type="text" id="INPUT1-Q5" class="form-control me-2" placeholder='as {"name": "John", "age": 30}' >
+                <button type="button" id="ACTION5" class="btn btn-danger ">Extract</button>
+                <label class="p-2 m-2 bg-warning rounded-2" id="RESULT5">-</label>
+              </div> 
+
+
+              <!-- Question 6 -->
+              <h2 class="text-info ">6-Use the spread operator to merge two arrays, then return the merged array.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap  w-75  align-items-center m-auto"> 
+                <input type="number" id="INPUT1-Q6" class="form-control me-2" placeholder="fill array by element" >
+                 <input type="text" id="INPUT2-Q6" class="form-control mt-md-0 mt-2 me-1" placeholder="your array" readonly>
+                 <button type="button" id="ACTION6_Fill" class="btn btn-danger me-1">Filling</button>
+             
+                 <input type="number" id="INPUT3-Q6" class="form-control me-2" placeholder="fill array by element" >
+                 <input type="text" id="INPUT4-Q6" class="form-control mt-md-0 mt-2 me-1" placeholder="your array" readonly>
+                 <button type="button" id="ACTION6_Fill2" class="btn btn-danger me-1">Filling</button>
+                <button type="button" id="ACTION6" class="btn btn-danger ">Merge</button>
+                <label class="p-2 m-2 bg-warning rounded-2" id="RESULT6">-</label>
+              </div> 
+
+              <!-- Question 7 -->
+              <h2 class="text-info ">7-Write a function that accepts multiple parameters (two or more) and returns their sum</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap  w-75  align-items-center m-auto"> 
+                <input type="number" id="INPUT1-Q7" class="form-control me-2" placeholder="fill array by element" >
+                 <input type="text" id="INPUT2-Q7" class="form-control mt-md-0 mt-2 me-1" placeholder="your array" readonly>
+                 <button type="button" id="ACTION7_Fill" class="btn btn-danger me-1">Filling</button>
+                <button type="button" id="ACTION7" class="btn btn-danger ">Average</button>
+                <label class="p-2 m-2 bg-warning rounded-2" id="RESULT7">-</label>
+              </div> 
+
+
+               <!-- Question 8 -->
+              <h2 class="text-info ">8-Compare primitive and non-primitive data types in JavaScript with examples..</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-baseline m-auto"> 
+               <p><span class="fs-5 fw-bold">Characteristics of Primitive Types:</span><br>
+                         Immutability: You cannot alter the original value; operations return new values.<br>
+                         Stored by value: When you assign a primitive type, its value is copied.<br>
+                        Fixed size: They have fixed sizes in memory.</p>
+                        <p><span class="fs-5 fw-bold">Characteristics of Non-Primitive Types:</span><br>
+                        Mutability: You can modify the contents of these types after creation.<br>
+                        Stored by reference: When you assign a non-primitive type, only a reference to the memory location is copied, not the actual value.<br>
+                        Variable size: The size in memory can change.<br><span class="text-warning">more details in Js file</span></p>
+                        
+
+              </div> 
+
+               <!-- Question 9 -->
+              <h2 class="text-info ">9-Explain how hoisting works in JavaScript and describe the Temporal Dead Zone (TDZ)..</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-center m-auto"> 
+               <p>var: Hoisted and initialized to undefined. Can be accessed before declaration without an error.<br>
+                 let and const: Hoisted but not initialized. Cannot be accessed before declaration, and doing so results in a ReferenceError due to the TDZ.<br>
+               <span class="text-warning">more details in Js file</span>
+                </p>
+              </div> 
+
+
+              <!-- Question 10 -->
+              <h2 class="text-info ">10-Write a function that demonstrates closure by creating a counter function that returns the number of times it has been called.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-center m-auto"> 
+                <p>Closure: A closure is created when an inner function  retains access to the variables of the outer function  even after the outer function has finished executing.
+                  <span class="text-warning">more details in Js file</span>
+                </p>
+              </div> 
+
+
+               <!-- Question 11 -->
+              <h2 class="text-info ">11-Create a function that returns a promise which resolves after 3 seconds with a 'Success' message.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-center m-auto"> 
+                <span class="text-warning w-100 text-center">more details in Js file</span>
+              </div> 
+
+
+              <!-- Question 12-->
+              <h2 class="text-info ">12-Convert the previous promise-based function to use `async` and `await`.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-center m-auto"> 
+               <span class="text-warning text-center w-100">more details in Js file</span>
+              </div>
+              
+              
+                 <!-- Question 13 -->
+              <h2 class="text-info ">13-Create a function that returns a promise, which resolves if a random number is greater than 5, otherwise it rejects.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-center m-auto"> 
+             <span class="text-warning text-center w-100">more details in Js file</span>
+              </div> 
+
+               <!-- Question 14 -->
+              <h2 class="text-info ">14-Implement a function that chains multiple .then() handlers to a promise to demonstrate promise chaining.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-center m-auto"> 
+                <span class="text-warning text-center w-100">more details in Js file</span>
+              </div>
+
+
+              <!-- Question 15 -->
+              <h2 class="text-info ">15-Implement a function that handles errors using `try...catch` in an asynchronous operation.</h2>
+              <div class="d-flex flex-wrap flex-md-nowrap w-75  align-items-center m-auto"> 
+               <span class="text-warning text-center w-100">more details in Js file</span>
+              </div> 
+
+
+
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+    <!-- -------------------------------------------------------------------------------------- -->
+
+    <!-- js part -->
+    <script src="js-files/index.js">
+    </script>
+    <script src="js-files/bs/bootstrap.bundle.js">
+    </script>
+
+</body>
+
+</html>
+
+</html>
